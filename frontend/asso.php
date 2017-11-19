@@ -5,7 +5,7 @@
 			<title> Mama mundi </title>
 			<link rel="stylesheet" href="css/styles.css"/>
 			<link rel="stylesheet" href="css/menuder.css"/>
-			<script type="text/javascript" src="menu.js"></script>	
+			<script type="text/javascript" src="menu.js"></script>
 		</head>
 		<body background="images/back1.jpg">
 			<div id="navbar">
