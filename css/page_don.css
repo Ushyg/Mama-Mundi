@@ -1,0 +1,65 @@
+#formule{
+	background-color: rgba(128,128,128,0.5);
+    border-radius: 50px 50px;
+    margin-top: 15px;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-left: 14%;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: bold;
+}
+
+#ssform{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#formule input{
+    border-radius: 5px;
+}
+
+#formule select{
+    border-radius: 5px;
+}
+
+#formule label{
+    display: block;
+    width: 200px;
+}
+
+h2{
+	display: inline-block;
+	margin-left: 200px;
+	width: 200px;
+}
+
+#coordonne{
+    display: flex;
+    vertical-align: top;
+    /*margin-left: 180px;*/
+    margin-left: 200px;
+    width: 200px;
+}
+
+#adresse{
+    /*display: flex;*/
+    vertical-align: top;
+    margin-left: 400px;
+    margin-top: -390px;
+    width: 200px;
+}
+
+.longueur{
+	width: 190px;
+}
+
+.longueur2{
+	width: 200.4px;
+}
+
+button{
+	display: inline-block;
+	margin-top: 150px;
+	margin-left: 300px 
+}

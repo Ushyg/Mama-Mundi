@@ -1,0 +1,54 @@
+#formule{
+	background-color: rgba(128,128,128,0.5);
+    display: flex;
+    border-radius: 50px 50px;
+    margin-top: 15px;
+	margin-left: 11%;
+    margin-right: 11%;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+#ssform{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#formule input{
+    border-radius: 5px;
+}
+
+#formule select{
+    border-radius: 5px;
+}
+
+#formule label{
+	display: block;
+	width: 100%;
+}
+
+#coordo{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding-left: 9%;
+}
+
+#parrainage{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+#reglement{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+#parrainage button{
+	margin-top: 90%;
+	margin-left: 15%;
+}
+
+

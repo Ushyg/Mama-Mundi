@@ -1,0 +1,140 @@
+	/*Taille Mobile*/
+
+@media screen and (max-width: 640px) 
+and (orientation:portrait){
+
+	html, body{
+		background-image: url(images/back3.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 640px 600px;
+		background-position: center;
+		margin: 0;
+	}
+
+	body{ 
+		max-width:640px;
+		display:block;
+	}
+
+	#menu{ 
+		display: flex; 
+	}
+
+	#bandeau {
+		display: block;
+	}
+
+	#icones img{ 
+		display: inline;
+		width: 20px;
+		height: 20px;
+	}
+
+	img{ 
+		width: 140px; 
+	}
+
+	#bandeau h1{
+		font-family: "raleway",Arial,Helvetica,sans-serif;
+		text-decoration-style: none;
+		font-size:18px;
+	}
+
+	#map iframe{
+		margin: 50px 150px;
+		width: 300px;
+		height: 350px;
+	}
+}
+
+
+ /*Taille Medium*/
+@media screen and (max-width: 800px)
+ and (orientation:portrait){
+
+	html, body{
+		background-image: url(images/back3.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 640px 600px;
+		background-position: center;
+		margin: 0;
+	}
+	
+	body{
+		max-width:640px;
+		display:block;
+	}
+
+	#menu{
+		display: flex;
+	}
+	
+	#bandeau{
+		display: block;
+	}
+
+	#icones img{
+		display: inline;
+		width: 25px;
+		height: 25px;
+	}
+	
+	img{
+		width: 140px;
+	}
+	
+	#bandeau h1{
+		font-family: "raleway",Arial,Helvetica,sans-serif;
+		text-decoration-style: none;
+		font-size:18px;
+	}
+	
+	#map iframe{
+	margin: 50px 150px;
+	width: 600px;
+	height: 450px; 
+	}
+}
+
+
+	/*Taille intermediaire*/
+@media screen and (min-width: 1024px) and (max-width: 1280px){ 
+
+    body{ 
+    	max-width: 1280px;             
+      	display: block;     
+ 	}     
+    
+    #menu{
+    	display: flex;
+    }      
+
+    #bandeau{
+    	display: flex;
+    }     
+
+    #icones img{
+    	display: inline;         
+    	width: 20px;         
+    	height: 20px;         
+    	margin-bottom: 15px;     
+    }       
+
+    img{
+    	width: 140px;      
+    }      
+
+    #bandeau h1{
+    	font-family: "raleway",Arial,Helvetica,sans-serif;
+    	text-decoration-style: none;         
+    	font-size:18px;     
+    }
+
+    #map iframe{
+		margin: 50px 150px;
+		width: 800px;
+		height: 600px; 
+	}
+}
