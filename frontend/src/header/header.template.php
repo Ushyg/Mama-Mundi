@@ -7,11 +7,13 @@ include_once('header.controller.php')
     <a href="index.php"> <img src="images/Logo1.png" alt="image bandeau"/></a>
     <h1>Mama Mundi</h1>
     <div id="icones">
-      <img src="images/france.svg" alt="image bandeau"/>
-      <img src="images/spain.svg" alt="image bandeau"/>
-      <a href="https://www.facebook.com/asociacion.jaimerever/?ref=page_internal"><img src="images/facebook.svg" alt="image bandeau"/></a>
-      <img src="images/twitter.svg" alt="image bandeau"/>
-      <a href="https://www.youtube.com/channel/UC1LRzm-VfgE9KHXJpKcjiLQ"><img src="images/youtube.svg" alt="image bandeau"/></a>
+
+      <?php foreach ( $headerCtrl->getIcons() as $icon){ ?>
+
+          <a href="<?php echo $icon["href"];?>"><img src="<?php echo $icon["src-img"];?>" alt="<?php echo $icon["alt-img"];?>"/></a>
+
+      <?php } /* enf foreach */ ?>
+      
     </div>
   </div>
   <div id="menu">
