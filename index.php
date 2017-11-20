@@ -20,7 +20,6 @@
 					<h1>Mama Mundi</h1>
 					<div id="icones">
 						<img src="images/france.svg" alt="image bandeau"/>
-						<img src="images/france.svg" alt="image bandeau"/>
 						<img src="images/spain.svg" alt="image bandeau"/>
 						<a href="https://www.facebook.com/asociacion.jaimerever/?ref=page_internal"><img src="images/facebook.svg" alt="image bandeau"/></a>
 						<img src="images/twitter.svg" alt="image bandeau"/>
