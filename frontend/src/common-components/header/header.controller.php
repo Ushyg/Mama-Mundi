@@ -41,6 +41,7 @@ $icons = array(
   array("src-img" => "images/twitter.svg", "alt-img" => "image bandeau", "href" => "#123456"),
   array("src-img" => "images/youtube.svg", "alt-img" => "image bandeau", "href" => "https://www.youtube.com/channel/UC1LRzm-VfgE9KHXJpKcjiLQ")
 );
+
 $headerCtrl = new HeaderController($menu_items, $icons);
 
 
