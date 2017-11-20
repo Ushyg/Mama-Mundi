@@ -4,6 +4,7 @@
 			<meta charset="utf-8">
 			<title> Mama mundi </title>
 			<link rel="stylesheet" href="css/styles.css"/>
+			<link rel="stylesheet" href="css/page_don.css"/>
 			<link rel="stylesheet" href="css/menuder.css"/>
 			<script type="text/javascript" src="menu.js"></script>
 		</head>
@@ -63,40 +64,48 @@
 
 			<div id=espace2>
 			</div>
-			<h2>Mes coordonnées</h2>
-			<section>
-				<form method="get" action="">
-					<label id="nom">Nom:</label><input type="text" name="ttnom"/><br/> 		<!-- la balise BR permet le retour a la ligne-->
-					<label id="prenom">Prénom:</label><input type="text" name="ttprenom"/><br/>
-					<label id="date">Date de Naissance</label><br/>
+			<section id="formule">
+				<h2>Mes coordonnées</h2>
+				<form method="get" action="" id="personne">
+					<label>Civilité</label><input class="longueur" type="text" name="civ"><br/>
+					<br/><label id="nom">Nom</label><input class="longueur" type="text" name="ttnom"/><br/>
+					<br/><label id="prenom">Prénom</label><input class="longueur" type="text" name="ttprenom"/><br/>
+					<br/><label id="date">Date de Naissance</label>
 				<select name="cbjour">
 					<?php
-						for ($j=1;$j<32;$j++) {							
-								print	('<option value="'.$j.'" selected="selected">'.($j).'</option>');
-						}
+						for ($j=1;$j<32;$j++) 
+							{							
+								print	('<option value="'.$j.'">'.($j).'</option>');
+							}
 					?>
 					<option value=""></option>
 				</select>
 				<select name="cbmois" onchange="getNBjour();">
 					<?php
 						$tab=Array(1=>'janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-						
-						for ($m=1;$m<=count($tab);$m++) {
-							print	('<option value="'.$tab[$m].'" selected="selected">'.($tab[$m]).'</option>');
-						}
+							for ($m=1;$m<=count($tab);$m++) 
+							{
+								print	('<option value="'.$tab[$m].'">'.($tab[$m]).'</option>');
+							}
 					?>
 				</select>
 				<select name="cbannees" onchange="getNBjour();">
 					<?php
-						for ($a=1965;$a<2021;$a++) {
-								print	('<option value="'.$a.'" selected="selected">'.($a).'</option>');
-						}
+						for ($a=1965;$a<2021;$a++) 
+							{
+								print	('<option value="'.$a.'">'.($a).'</option>');
+							}
 					?>
 				</select><br/>
-				<br/><label>E-mail</label><input><br/>
-				<br/><label>E-mail confirmation</label><input><br/>
-				<br/><label>Adresse</label><input><br/>
-				<br/><label>Code postal</label><br/>
+				<br/><label>E-mail</label><input class="longueur" type="text" name=""><br/>
+				<br/><label>E-mail confirmation</label><input class="longueur" type="text" name=""><br/>
+				<br/><label>Téléphone</label><input class="longueur" type="text" name=""><br/>
+			</form>
+			<form id="adresse">
+				<label>Adresse</label><input class="longueur2" type="text" name=""><br/>
+				<br/><label>Complément d'adresse</label><input class="longueur2" type="text" name=""><br/>
+				<br/><label>Nationalité</label><input class="longueur2" type="text" name=""><br/>
+				<br/><label>Département</label>
 					<select name="departement">
 						<option>01 - Ain</option>
 						<option>02 - Aisne</option>
@@ -200,11 +209,9 @@
 						<option>974 - La réunion</option>
 						<option>976 - Mayotte</option>
 					</select><br/>
-				<br/><label>Ville</label><input><br/>
-				<br/><label>Téléphone</label><input><br/>
-				<br/><label>Situation actuelle</label><input><br/>
+				<br/><label>Ville</label><input class="longueur2" type="text" name=""><br/>
 		</form>
-		<button onclick="nom();">Envoyer</button><br>
+				<br/><button onclick="nom();">Envoyer</button><br>
 	</section>
 </body>
 </html>
