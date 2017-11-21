@@ -60,7 +60,9 @@
 			<div id="espace2">
 			</div>
 			<section id="formule">
-				<h2>Mes coordonnées</h2>
+				<div>
+				<h2 id="coordo">Mes coordonnées</h2>
+				<h2 id="paie">Mes informations de paiements</h2>
 				<form method="get" action="" id="personne">
 					<label>Civilité</label><input class="longueur" type="text" name="civ"><br/>
 					<br/><label id="nom">Nom</label><input class="longueur" type="text" name="ttnom"/><br/>
@@ -95,8 +97,8 @@
 				<br/><label>E-mail</label><input class="longueur" type="text" name=""><br/>
 				<br/><label>E-mail confirmation</label><input class="longueur" type="text" name=""><br/>
 				<br/><label>Téléphone</label><input class="longueur" type="text" name=""><br/>
-			</form>
-			<form id="adresse">
+			</div>
+			<div id="adresse">
 				<label>Adresse</label><input class="longueur2" type="text" name=""><br/>
 				<br/><label>Complément d'adresse</label><input class="longueur2" type="text" name=""><br/>
 				<br/><label>Nationalité</label><input class="longueur2" type="text" name=""><br/>
@@ -205,8 +207,42 @@
 						<option>976 - Mayotte</option>
 					</select><br/>
 				<br/><label>Ville</label><input class="longueur2" type="text" name=""><br/>
-		</form>
+				</div>
+			<div id="infopaie">
+				<br/><label id="nom">Identité du titulaire</label><input class="longueur3" type="text" name="ttnom"/><br/>
+				<br/><label id="prenom">Numéro de la carte</label><input class="longueur3" type="text" name="ttprenom"/><br/>
+				<br/><label id="date">Date de fin de validité</label>
+					<select name="cbmois" onchange="getNBjour();">
+						<?php
+							$tab=Array(1=>'janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
+								for ($m=1;$m<=count($tab);$m++) 
+								{
+									print	('<option value="'.$tab[$m].'">'.($tab[$m]).'</option>');
+								}
+						?>
+					</select>
+					<select name="cbannees" onchange="getNBjour();">
+						<?php
+							for ($a=1965;$a<2021;$a++) 
+								{
+									print	('<option value="'.$a.'">'.($a).'</option>');
+								}
+						?>
+					</select><br/>
+				<br/><label id="nom">Cryptogramme visuel</label><input class="longueur3" type="text" name="ttnom"/><br/>
+				<br/><label id="nom">Justificatif</label>
+					<select>
+						<option>Oui</option>
+						<option>Non</option>
+					</select><br/>
+				<br/><label id="nom">Si oui par</label>
+					<select>
+						<option>Courrier postal</option>
+						<option>Email</option>
+					</select>
+			</div>
 				<br/><button onclick="nom();">Envoyer</button><br>
+			</form>
 	</section>
 	<script type="text/javascript">
 	function initcbs(){

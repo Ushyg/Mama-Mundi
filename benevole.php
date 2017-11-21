@@ -4,7 +4,7 @@
 			<meta charset="utf-8">
 			<title> Mama mundi </title>
 			<link rel="stylesheet" href="css/styles.css"/>
-			<link rel="stylesheet" href="css/page_don.css"/>
+			<link rel="stylesheet" href="css/page_benevole.css"/>
 			<link rel="stylesheet" href="css/menuder.css"/>
 			<script type="text/javascript" src="menu.js"></script>
 		</head>
@@ -66,7 +66,7 @@
 			</div>
 			<section id="formule">
 				<h2>Mes coordonnées</h2>
-				<form method="get" action="" id="personne">
+				<form method="get" action="">
 					<label>Civilité</label><input class="longueur" type="text" name="civ"><br/>
 					<br/><label id="nom">Nom</label><input class="longueur" type="text" name="ttnom"/><br/>
 					<br/><label id="prenom">Prénom</label><input class="longueur" type="text" name="ttprenom"/><br/>

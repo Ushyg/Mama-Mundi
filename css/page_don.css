@@ -5,8 +5,8 @@
     padding-right: 20%;
     padding-bottom: 5%;
     padding-left: 14%;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-weight: bold;
 }
 
@@ -28,25 +28,24 @@
     width: 200px;
 }
 
-h2{
-	display: inline-block;
-	margin-left: 200px;
+#coordo{
+	display: flex;
+	margin-left: 100px;
+    margin-top: 100px;
 	width: 200px;
 }
 
-#coordonne{
+#paie{
     display: flex;
-    vertical-align: top;
-    /*margin-left: 180px;*/
-    margin-left: 200px;
-    width: 200px;
+    margin-left: 600px;
+    margin-top: 50px;   
+    width: 400px;
 }
 
 #adresse{
-    /*display: flex;*/
     vertical-align: top;
-    margin-left: 400px;
-    margin-top: -390px;
+    margin-left: 200px;
+    margin-top: -390.75px;
     width: 200px;
 }
 
@@ -56,6 +55,17 @@ h2{
 
 .longueur2{
 	width: 200.4px;
+}
+
+.longueur3{
+    width: 140px;
+}
+
+#infopaie{
+    vertical-align: top;
+    margin-left: 650px;
+    margin-top: -275px;
+    width: 300px;
 }
 
 button{
