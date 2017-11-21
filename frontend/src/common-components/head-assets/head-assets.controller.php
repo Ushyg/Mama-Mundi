@@ -2,14 +2,15 @@
 
 /*
 $assetsConfig contient les différentes configurations communes à toutes les pages (à inclure dans la balise <head>)
-Cette variable stocke la valeur charset, le titre de référencement, les fichiers css et javascript à inclure  
+Cette variable stocke la valeur charset, le titre de référencement, les fichiers css et javascript à inclure
 */
 $assetsConfig = array(
   "charset" => "utf-8",
   "title" => "Mama Mundi",
   "css" => array(
     array("href" => "css/styles.css"),
-    array("href" => "css/menuder.css")
+    array("href" => "css/menuder.css"),
+    array("href" => "src/assets/css/style.css")
   ),
   "javascript" => array(
     array("src" => "src/common-components/header/menu.js"),
