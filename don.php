@@ -59,7 +59,7 @@
 			<div id="espace2">
 			</div>
 			<section id="formule">
-				<div>
+				<div id="blocpers">
 				<h2 id="coordo">Mes coordonnées</h2>
 					<form method="get" action="" id="personne">
 						<label>Civilité</label><input class="longueur" type="text" name="civ"><br/>
