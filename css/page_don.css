@@ -30,16 +30,20 @@
 
 #coordo{
 	display: flex;
-	margin-left: 100px;
-    margin-top: 100px;
+	margin-left: 50px;
+    margin-top: 15px;
 	width: 200px;
 }
 
 #paie{
     display: flex;
-    margin-left: 600px;
-    margin-top: 50px;   
+    margin-top: 20px;   
     width: 400px;
+}
+
+#personne{
+    vertical-align: top;
+    width: 200px;
 }
 
 #adresse{
