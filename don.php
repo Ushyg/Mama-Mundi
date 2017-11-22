@@ -67,7 +67,7 @@
 					<label>Civilité</label><input class="longueur" type="text" name="civ"><br/>
 					<br/><label id="nom">Nom</label><input class="longueur" type="text" name="ttnom"/><br/>
 					<br/><label id="prenom">Prénom</label><input class="longueur" type="text" name="ttprenom"/><br/>
-					<br/><label id="date">Date de Naissance</label>
+					<br/><label id="date">Dates de Naissance</label>
 				<select name="cbjour">
 					<?php
 						for ($j=1;$j<32;$j++) 
