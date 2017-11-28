@@ -1,12 +1,12 @@
 #formule{
 	background-color: rgba(128,128,128,0.5);
     border-radius: 50px 50px;
-    margin-top: 15px;
+    margin-top: 5px;
     padding-right: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 20%%;
     padding-left: 14%;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-weight: bold;
 }
 
@@ -28,38 +28,58 @@
     width: 200px;
 }
 
-h2{
-	display: inline-block;
-	margin-left: 200px;
-	width: 200px;
-}
-
-#coordonne{
+#blocpers{
     display: flex;
-    vertical-align: top;
-    /*margin-left: 180px;*/
-    margin-left: 200px;
-    width: 200px;
+    width: 500px
 }
 
-#adresse{
-    /*display: flex;*/
-    vertical-align: top;
-    margin-left: 400px;
-    margin-top: -390px;
+#coordo{
+    display: flex;
+    margin-top: 15px;
+}
+
+#personne{
+    vertical-align: flex;
     width: 200px;
 }
 
 .longueur{
-	width: 190px;
+    width: 190px;
+}
+
+#adresse{
+    vertical-align: top;
+    margin-top: 200px
+    width: 200px;
 }
 
 .longueur2{
-	width: 200.4px;
+    width: 200.4px;
+}
+
+#infopaie{
+    vertical-align: top;
+    margin-left: 650px;
+    margin-top: -275px;
+    width: 300px;
+}
+
+#paie{
+    display: flex;
+    margin-top: 20px;   
+    width: 400px;
+}
+
+#paiement{
+
+}
+
+.longueur3{
+    width: 140px;
 }
 
 button{
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 50px;
 	margin-left: 300px 
 }

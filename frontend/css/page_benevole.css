@@ -34,14 +34,6 @@ h2{
 	width: 200px;
 }
 
-#coordonne{
-    display: flex;
-    vertical-align: top;
-    /*margin-left: 180px;*/
-    margin-left: 200px;
-    width: 200px;
-}
-
 #adresse{
     /*display: flex;*/
     vertical-align: top;
