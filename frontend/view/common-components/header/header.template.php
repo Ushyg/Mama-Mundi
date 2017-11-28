@@ -34,7 +34,7 @@ include_once('header.controller.php')
 					<ul>
 						<?php foreach ($menuItem['childs'] as $childItem){ ?>
 
-						<li><a href="<?php echo $childItem['childs']; ?>"><?php echo $childItem['childs']; ?></a></li> 
+						<li><a href="<?php echo $childItem['url']; ?>"><?php echo $childItem['label']; ?></a></li> 
 
 						<?php } ?>
 					</ul>

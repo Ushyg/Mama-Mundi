@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 <?php
-	include_once ('./model/classe/data.php')
+	include_once ('./php/data.php')
 ?>
 		<head>
 			<meta charset="utf-8">
@@ -15,7 +15,7 @@
 <!--______________________Menu______________________ -->
 
 <?php
-	include_once ('view/common-components/header/header.template.php')
+	include_once ('src/common-components/header/header.template.php')
 ?>
 
 <!-- ______________________Menu______________________ -->

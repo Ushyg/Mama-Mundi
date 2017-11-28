@@ -47,7 +47,7 @@ constraint fk_participant_projet_pro_id foreign key (participant_projet_pro_id) 
 
 CREATE TABLE article(
 article_id int,
-article_titre VARCHAR(250) not null,
+article_titre VARCHAR(250) NOT NULL,
 article_corps blob,
 article_date DATE not null,
 CONSTRAINT pk_article_id PRIMARY KEY (article_id))
@@ -152,8 +152,8 @@ GRANT Show view ON mamamundi.* TO 'mamamundi'@'%' ;
 GRANT Usage ON *.* TO 'mamamundi'@'%' ;
 FLUSH PRIVILEGES ;
 
-/*Qui a participer à la réunion du 18 décembre 2016 ?
+Qui a participer à la réunion du 18 décembre 2016 ?
 
 select reunion_date,individu_nom,individu_prenom,individu_id
 from suivi inner join reunion on suivi_id=reunion_suivi_id inner join projet on projet_id=suivi_projet_id inner join participant_projet on participant_projet_pro_id=projet_id inner join individu on individu_id=participant_projet_ind_id 
-where reunion_date='2016-12-18';*/
+where reunion_date='2016-12-18';
