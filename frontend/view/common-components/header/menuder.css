@@ -1,0 +1,158 @@
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#bandeau{
+    background-color: white;
+    height: 60px;
+}
+
+#bandeau img{
+    display: inline;
+    vertical-align: middle;
+}
+
+#bandeau h1{
+    font-family: "raleway",Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    color: black;
+    margin-left: 38%;
+
+}
+
+#bandeau>#icones{
+    display: inline;
+    margin-left: 30%;
+}
+
+#icones img{
+    width: 30px;
+    height: 30px;
+}
+
+#menu{
+    background-color: white;
+    height: 40px;
+    text-align: center;
+}
+
+#menu>ul{
+    margin: 0px;
+    margin-left: 20%;
+}
+
+#menu>ul>li{
+    display: inline;
+    line-height: 30px;
+    margin: 0 30px;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+#liens{
+    font-family:"raleway",Arial,Helvetica,sans-serif;
+    font-size:12pt;
+    color:#000000;
+    text-decoration: none;
+}
+#menu_der{ 										/* Ensemble du menu */
+	font-weight : bold; 							/* on met le texte en gras */
+    font-family : "raleway",Arial,Helvetica,sans-serif;			/* on utilise Arial, c'est plus beau ^^ */
+    font-size : 12px; 								/* hauteur du texte : 12 pixels */
+}
+
+
+
+#menu_der ul{ 									/* Liste */     
+
+        padding : 0; 								/* pas de marge intérieure */
+        margin : 0; 								/* ni extérieure */
+        list-style : none; 							/* on supprime le style par défaut de la liste */
+        line-height : 21px; 						/* on définit une hauteur pour chaque élément */
+        text-align : center; 						/* on centre le texte qui se trouve dans la liste */
+}
+
+#menu_der a{ 									/* Contenu des listes */
+
+        display : block; 							/* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0px; 								/* aucune marge intérieure */
+        background : white;							/* couleur de fond */        
+        color : black; 								/* couleur du texte */
+        text-decoration : none; 					/* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 144px; 								/* largeur */
+}
+
+
+#menu_der li{ 										/* Éléments des listes */       
+        float : left; 								/* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid white; 				/* on met une bordure blanche à droite de chaque élément */
+}
+
+
+												/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu_der li{
+        border-right: 1px solid white; 				/* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu_der li ul 								/* Sous-listes */
+{ 
+        position: absolute; 						/* Position absolue */
+        width: 144px; 								/* Largeur des sous-listes */
+        left: -999em; 								/* Hop, on envoie loin du champ de vision */
+}
+
+
+#menu_der li ul li 									/* Eléments de sous-listes */
+{
+        											/* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 1px solid black; 				/* on met une bordure blanche en haut de chaque élément d'une sous-liste */
+}
+
+												/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu_der li ul li{
+        border-top : 1px solid black; 				/* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu_der li ul ul{
+        margin    : -22px 0 0 144px ; 				/* On décale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */ 
+        											/* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-left     : 1px solid black ; 		/* Petite bordure à gauche pour ne pas coller ... */      
+}
+
+												/* IE ne reconnaissant pas le sélecteur ">" ... je me répète ;-) */
+html>body #menu_der li ul ul{
+        border-left     : 1px solid black ; 		/* on met une bordure transparente sur la gauche de chaque élément */
+}
+
+#menu_der a:hover{ 								/* Lorsque la souris passe sur un des liens */    
+        color: #000; 								/* On passe le texte en noir... */
+        background: #fff; 							/* ... et au contraire, le fond en blanc */
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul{ 	/* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+        left: -999em; 								/* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul{  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+        left: auto; 								/* Repositionnement normal */
+        min-height: 0; 								/* Corrige un bug sous IE */
+}
+#espace1{
+    margin-bottom: 35%;
+}
+
+#espace2{
+    margin-bottom: 10%;
+}
+
+#espace3{
+    margin-bottom: 35%;
+}
+
+#espace4{
+    margin-bottom: 35%;
+}
