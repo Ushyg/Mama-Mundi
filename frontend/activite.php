@@ -28,7 +28,7 @@
 						<li>
 							<a id="liens" href="asso.php" title="Page d'acceuil">L’association</a>
 								<ul>
-	                        		<li><a href="#">Notre organisation</a></li>
+	                        		<li><a href="#">Notres organisation</a></li>
 	                        		<li><a href="#">Notre mission</a></li>
 	                        		<li><a href="#map">Nos projets</a></li>
 	                        		<li><a href="#">Notre équipe au Sénégal</a></li>
