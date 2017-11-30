@@ -40,12 +40,6 @@ and (orientation:portrait){
 		text-decoration-style: none;
 		font-size:18px;
 	}
-
-	#map iframe{
-		margin: 50px 150px;
-		width: 300px;
-		height: 350px;
-	}
 }
 
 
@@ -90,12 +84,6 @@ and (orientation:portrait){
 		text-decoration-style: none;
 		font-size:18px;
 	}
-	
-	#map iframe{
-	margin: 50px 150px;
-	width: 600px;
-	height: 450px; 
-	}
 }
 
 
@@ -131,10 +119,4 @@ and (orientation:portrait){
     	text-decoration-style: none;         
     	font-size:18px;     
     }
-
-    #map iframe{
-		margin: 50px 150px;
-		width: 800px;
-		height: 600px; 
-	}
 }
