@@ -18,7 +18,7 @@
 			Association loi 1901<br/>
 			Mama-Mundi<br/>
 			89, RUE DE PARIS<br/>
-			92110 CLICHY LA GARENNEs
+			92110 CLICHY LA GARENNE
 			Tél. : +33 (0)1 76 21 86 00<br/>
 			N° de siret : G70381181
 		</p>
