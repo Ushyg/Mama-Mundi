@@ -24,20 +24,20 @@
             <li>
                 <a id="liens" href="./asso.php" title="Page d'acceuil">L’association</a>
                     <ul>
-                        <li><a href="#">Notre organisation</a></li>
-                        <li><a href="#">Notre mission</a></li>
-                        <li><a href="#map">Nos projets</a></li>
-                        <li><a href="#">Notre équipe au Sénégal</a></li>
+                        <li><a href="./asso.php?organisation">Notre organisation</a></li>
+                        <li><a href="./asso.php?mission">Notre mission</a></li>
+                        <li><a href="./asso.php?projet">Nos projets</a></li>
+                        <li><a href="./asso.php?equipe">Notre équipe au Sénégal</a></li>
                     </ul>
             </li>
             <li>
-                <a id="liens" href="activite.php" title="Page actualités">Nos activités</a>
+                <a id="liens" href="./activite.php" title="Page actualités">Nos activités</a>
                     <ul>
-                        <li><a href="#">Éducation</a></li>
-                        <li><a href="#">Formation professionnelle</a></li>
-                        <li><a href="#">Soutien aux familles</a></li>
-                        <li><a href="#">Nos résultats</a></li>
-                        <li><a href="#">Matériel éducatif</a></li>
+                        <li><a href="./activite.php?education">Éducation</a></li>
+                        <li><a href="./activite.php?formation">Formation professionnelle</a></li>
+                        <li><a href="./activite.php?soutienfamilles">Soutien aux familles</a></li>
+                        <li><a href="./activite.php?resultat">Nos résultats</a></li>
+                        <li><a href="./activite.php?materiel">Matériel éducatif</a></li>
                     </ul>
             </li>
             <li>
