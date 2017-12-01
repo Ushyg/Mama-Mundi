@@ -74,5 +74,5 @@
   	function setEnfantProjetId($enfant_projet_id){
 	return $this->_enfant_projet_id;
     }
-
+	}
 

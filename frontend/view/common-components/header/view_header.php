@@ -41,11 +41,11 @@
                     </ul>
             </li>
             <li>
-                <a id="liens" title="Page formulaire">Nous soutenir</a>
+                <a id="liens" href="./soutenir.php" title="Page formulaire">Nous soutenir</a>
                     <ul>
-                        <li><a href="./parrainer.php">Parrainer</a></li>
-                        <li><a href="./don.php">Faire un don</a></li>
-                        <li><a href="./benevole.php">Devenir bénévole</a></li>
+                        <li><a href="./soutenir.php?parrainer">Parrainer</a></li>
+                        <li><a href="./soutenir.php?don">Faire un don</a></li>
+                        <li><a href="./soutenir.php?benevole">Devenir bénévole</a></li>
                     </ul>
             </li>
         </ul>
