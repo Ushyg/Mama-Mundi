@@ -1,7 +1,26 @@
-#bandeau_footer{
+
+#footer{
+	display: inline-block;
 	background-color: #FFFFFF;
+	width:100%;
+
+}
+#footer_icones{
+	display: inline;
 }
 
+#footer_icones img{
+    width: 30px;
+    height: 30px;
+}
+
+#footer_logo{
+	display: inline-block;
+	
+}
+
+
 #footer_text{
+	display: inline-block;
 	margin-left: 300px;
 }
